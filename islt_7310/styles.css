@@ -1,9 +1,10 @@
 #paragraph {font-style: normal;}
 
-     .paragraph {color: #333333;}
+     .paragraph {color: #333333;
+     border: #007dfa;
+     }
 
 #Heading3 {
-     background: color #007dfa;
      color: black;
-     border: #007dfa;
+ 
 }
