@@ -3,8 +3,8 @@
      font-style: normal;
      margin-top: 20px;
      color: #333333;
-     padding-left: 500px;
-     padding-right: 500px;
+     padding-left: 400px;
+     padding-right: 400px;
 }
 
 
@@ -60,16 +60,7 @@
      border-width: 5px;
 }
 
-.photo-gallery didot  
 
-
-#abouttitle {
-     text-align: center;
-     font-family: 'Poppins', sans-serif;
-     color: #000;
-     margin: 20px;
-     font-style: normal
-}
 
 #aboutheading {
      font-size: xx-large;
@@ -77,12 +68,25 @@
      letter-spacing: 1.5px;
      padding-block-end: 10px;
      padding-block-start: 10px;
-     background-color:#007dfa;
+     background-color:#007dfa8c;
      color: #fff;
      font-family: 'Poppins', sans-serif;
      margin: 10px
      
 }
+
+#about2 {
+     text-decoration: underline;
+     text-decoration-color: #333333;
+     font-size: x-large;
+     text-align: center;
+     letter-spacing: 1.5px;
+     padding-top: 50px;
+     color: #333333;
+     font-family: 'Poppins', sans-serif;
+     margin: 10px
+}
+
 
 #pdf{
      text-align: center;
@@ -90,15 +94,17 @@
 
 #intro {
      text-align: center;
-     padding-left: 150px;
-     padding-right: 150px;
+     padding-left: 175px;
+     padding-right: 175px;
+     padding-top: 0px;
+     padding-bottom: 50px;
 }
 
  #links {
      text-align: center;
      margin:auto;
      border-style: solid;
-     border-color: #007dfa;
+     border-color: #007dfa8c;
      width: 200px;
      font-size: larger;
      font-family: 'Poppins', sans-serif;
@@ -110,7 +116,7 @@
      text-align: center;
      margin:auto;
      border-style: solid;
-     border-color: #007dfa;
+     border-color: #007dfa8c;
      width: 200px;
      font-size: larger;
      font-family: 'Poppins', sans-serif;
@@ -154,7 +160,7 @@ h5 a:hover{
      letter-spacing: 1.5px;
      padding-block-end: 10px;
      padding-block-start: 10px;
-     background-color:#007dfa;
+     background-color: #007dfa8c;
      color: #fff;
      font-family: 'Poppins', sans-serif;
      margin: 10px
@@ -163,13 +169,12 @@ h5 a:hover{
 
 #Past {
      font-size: x-large;
-     text-decoration: underline;
-     text-decoration-color: #007dfa;
      font-style: normal;
      color: #000;
      font-style: 'Poppins', sans-serif;
      text-align: center;
-     margin: 40px
+     margin: 40px;
+     color: #333333;
 
 }
 
@@ -213,7 +218,7 @@ h5 a:hover{
 .essay {
      width: 80%;
      border-style: solid;
-     border-color: #007dfa;
+     border-color: #007dfa8c;
      margin:auto
 
 }
