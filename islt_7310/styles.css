@@ -99,7 +99,7 @@
      text-decoration-color: #0cc572;
      text-decoration-line: overline;
      text-decoration-thickness: 2px;
-     font-size: x-small;
+     font-size: small;
      font-family: 'Poppins',sans-serif;
      font-weight: bolder;
      color: #000;
@@ -373,7 +373,6 @@ nav .logo p:hover {
      gap: var(--gap);
      margin-top: 5px;
 }
-
 
 #didot-2:hover {
      transform: scale(1.3);
