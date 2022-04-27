@@ -1,3 +1,49 @@
+nav{
+     width: 100%;
+     height: 75px;
+     background-color: #333333;
+     line-height: 75px;
+     padding:0px 100px;
+     position:relative;
+     z-index: 1;
+}
+nav .logo{
+     font-size: 30px;
+     font-weight: bold;
+     letter-spacing: 1.5px;
+}
+nav .logo p{
+     float: left;
+     color: #0cc572;
+     text-transform: uppercase;
+}
+nav ul{
+     float: right;
+}
+nav ul li{
+     display: inline-block;
+     list-style: none;
+}
+nav ul li a{
+     color: #fff;
+     text-decoration: none;
+     font-size: 18px;
+     text-transform: uppercase;
+     padding:0px 10px;
+}
+nav ul li a:hover{
+     color: #0cc572;
+}
+nav ul li .active{
+     color: #0cc572;
+}
+
+nav .logo p:hover {
+     color: #fff;
+
+
+}
+
 #paragraph1 {
      text-align: center;
      font-style: normal;
@@ -151,6 +197,16 @@
      height: 15%;
 }
 
+.container3 {
+
+     grid: 100%;
+     --num-cols: 1;
+     display: grid;
+     margin: auto;
+     padding-left: 75px;
+     padding-right: 75px
+
+}
 #aboutheading {
      text-decoration: underline;
      text-decoration-color: #0cc572;
@@ -255,8 +311,6 @@ h5 a:hover{
      background-size: cover;
      color: #333333;
      font-family: 'Poppins', sans-serif;
-     margin: 10px;
-     padding-bottom: 20px;
      padding-top: 20px;
      
 }
@@ -310,11 +364,17 @@ h5 a:hover{
      padding-bottom: 20px;
 }
 
-.essay {
-     width: 80%;
-     border-style: solid;
-     border-color: #0cc57288;
-     margin:auto
+.container2{
+     grid: 75%;
+     --num-cols: 1;
+     box-sizing:border-box;
+     display: grid;
+     grid-template-columns: repeat(var(--num-cols), 1fr);
+     grid-auto-rows: var(--row-height);
+     gap: var(--gap);
+     margin: auto;
+     padding-left: 75px;
+     padding-right: 75px
 
 }
 
@@ -326,50 +386,11 @@ h5 a:hover{
      box-sizing: border-box;
      font-family: 'Poppins', sans-serif;
 }
-nav{
+
+.container {
+     grid: 100%;
      width: 100%;
-     height: 75px;
-     background-color: #333333;
-     line-height: 75px;
-     padding:0px 100px;
-     position:relative;
-     z-index: 1;
-}
-nav .logo{
-     font-size: 30px;
-     font-weight: bold;
-     letter-spacing: 1.5px;
-}
-nav .logo p{
-     float: left;
-     color: #0cc572;
-     text-transform: uppercase;
-}
-nav ul{
-     float: right;
-}
-nav ul li{
-     display: inline-block;
-     list-style: none;
-}
-nav ul li a{
-     color: #fff;
-     text-decoration: none;
-     font-size: 18px;
-     text-transform: uppercase;
-     padding:0px 10px;
-}
-nav ul li a:hover{
-     color: #0cc572;
-}
-nav ul li .active{
-     color: #0cc572;
-}
-
-nav .logo p:hover {
-     color: #fff;
-
-
+     text-align: center
 }
 
 .project-gallery {
