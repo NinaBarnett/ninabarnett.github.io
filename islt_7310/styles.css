@@ -105,6 +105,10 @@ nav .logo p:hover {
      text-decoration-color: #0cc572;
      color: #0cc572;
 }
+
+.container3 {
+     grid: 100%;
+}
 .photo-gallery {
      --gap: 30px;
      --num-cols: 3;
@@ -197,16 +201,6 @@ nav .logo p:hover {
      height: 15%;
 }
 
-.container3 {
-
-     grid: 100%;
-     --num-cols: 1;
-     display: grid;
-     margin: auto;
-     padding-left: 75px;
-     padding-right: 75px
-
-}
 #aboutheading {
      text-decoration: underline;
      text-decoration-color: #0cc572;
