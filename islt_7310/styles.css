@@ -572,3 +572,8 @@ h5 a:hover{
 }
 
 
+@media (min-width:320) {
+     .project-gallery-poster{
+          width: 100%;
+     }
+}
