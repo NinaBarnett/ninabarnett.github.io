@@ -363,9 +363,10 @@ h5 a:hover{
      grid-template-columns: repeat(var(--num-cols), 1fr);
      grid-auto-rows: var(--row-height);
      gap: var(--gap);
-     margin: auto;
-     padding-left: 75px;
-     padding-right: 75px
+     border: solid;
+     border-color: #0cc572;
+     margin-left: 20px;
+     margin-right: 20px
 
 }
 
