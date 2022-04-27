@@ -108,6 +108,8 @@ nav .logo p:hover {
 
 .container3 {
      grid: 100%;
+     grid-column:var(--num-cols);
+     --num-cols: 3
 }
 .photo-gallery {
      --gap: 30px;
