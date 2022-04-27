@@ -106,11 +106,6 @@ nav .logo p:hover {
      color: #0cc572;
 }
 
-.container3 {
-     grid: 100%;
-     grid-column:var(--num-cols);
-     --num-cols: 3
-}
 .photo-gallery {
      --gap: 30px;
      --num-cols: 3;
