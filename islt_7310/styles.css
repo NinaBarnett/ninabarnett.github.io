@@ -385,7 +385,8 @@ h5 a:hover{
 .container {
      grid: 100%;
      width: 100%;
-     text-align: center
+     text-align: center;
+     min-width: 320px;
 }
 
 .project-gallery {
