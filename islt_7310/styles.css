@@ -586,3 +586,26 @@ x
      background-image: url(back.png);
      width: 100%;
 }
+
+@media print {
+     #aboutheading, 
+     #Quote,
+     #Under,
+     #intro,
+     #foot {
+          color:#000;
+          width: 100%;
+     }
+
+     .nav {
+          display: none;
+     }
+
+     a::after  {
+          content: " <" attr(href) ">";
+          color: #333333;
+     }
+     
+
+
+}
